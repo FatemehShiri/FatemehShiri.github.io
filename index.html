@@ -31,12 +31,14 @@
 
 	<section id="research">
 		</h2>Research Interests:</h2>
+		<ul>
 
-		<p>Multilingual and Multi-domain Information/Event Extraction</p>
-			
-		<p>LLMs Certified CoT Reasoning with Knowledge Graph</p>
-			
-		<p>Automatic Knowledge base construction/completion</p>
+			<li>Multilingual and Multi-domain Information/Event Extraction</li>
+				
+			<li>LLMs Certified CoT Reasoning with Knowledge Graph</li>
+				
+			<li>Automatic Knowledge base construction/completion</li>
+		</ul>	
 	</section>
 	
 	<section id="publications">
@@ -47,8 +49,16 @@
     	<section id="contact">
         	<h2>Contact</h2>
         	<p>Feel free to get in touch with me regarding research collaboration or any inquiries related to my work.</p>
-		<li><a href="mailto:fatemeh.shiri@monash.edu">Email</a></li>
+		<p>Email: <span id="email"></span></p>
     	</section>
+
+	<script type="text/javascript">
+	    // JavaScript to obfuscate the email address
+	    var user = 'your.email';
+	    var domain = 'example.com';
+	    var element = document.getElementById('email');
+	    element.innerHTML = '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
+	</script>
 				
 	
 	<footer>
